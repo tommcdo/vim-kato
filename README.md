@@ -16,6 +16,10 @@ gem as follows:
 The plugin can then be installed using one of your favourite plugin managers.
 Here are instructions if you're using [Pathogen][pathogen]:
 
+	cd ~/.vim
+	mkdir -p bundle && cd bundle
+	git clone https://github.com/tommcdo/vim-kato
+
 [pathogen]: https://github.com/tpope/vim-pathogen
 
 Configuration
