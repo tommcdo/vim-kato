@@ -1,0 +1,23 @@
+*kato.txt*  Post a code snippet to a kato chat room
+
+Author: Tom McDonald <http://github.com/tommcdo>
+License: Same terms as Vim itself (see |license|)
+
+This plugin is only available if 'compatible' is not set.
+
+INTRODUCTION                                    *kato*
+
+Send a code snippet to a kato.im chat room. If the current 'filetype'
+is set for Markdown, the contents will be rendered as Markdown in
+the chat. Otherwise, it will be rendered as code.
+
+COMMANDS                                        *kato-commands*
+
+                                                *:Kato*
+:Kato                   Write the entire buffer to the default room
+                        in kato.im
+
+:[range]Kato            Write the specified lines to the default room
+                        in kato.im
+
+ vim:tw=78:ts=8:ft=help:norl:
