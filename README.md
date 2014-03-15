@@ -35,7 +35,7 @@ Usage
 -----
 
 kato.vim provides the command `:Kato`. Without a range, it will send the entire
-file. A specific section can be send using a range, which is most easily
+file. A specific section can be sent using a range, which is most easily
 accomplished from Visual mode.
 
 [kato]: https://kato.im
