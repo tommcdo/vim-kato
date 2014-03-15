@@ -21,7 +21,7 @@ Here are instructions if you're using [Pathogen][pathogen]:
 Configuration
 -------------
 
-Configure the `kato` tool by creating a `~.kato.yml` file sort of like this:
+Configure the `kato` tool by creating a `~/.kato.yml` file sort of like this:
 
 	user: tommcdo
 	room: dev
