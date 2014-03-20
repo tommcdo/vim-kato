@@ -11,4 +11,4 @@ function! s:kato(line1, line2, ...)
 	execute a:line1.', '.a:line2.'write !'.g:kato_command.' -f '.renderer
 endfunction
 
-command! -range=% -nargs=* Kato call s:kato(<line1>, <line2>, <q-args>)
+command! -range -nargs=* Kato call s:kato(<line1>, <line2>, <q-args>)

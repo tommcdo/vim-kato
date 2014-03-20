@@ -34,9 +34,9 @@ More detail can be found in [kato-cli's documentation][kato-cli], maybe.
 Usage
 -----
 
-kato.vim provides the command `:Kato`. Without a range, it will send the entire
-file. A specific section can be sent using a range, which is most easily
-accomplished from Visual mode.
+kato.vim provides the command `:Kato`. Without a range, it will send the
+current line. A specific section can be sent using a range, which is most
+easily accomplished from Visual mode.
 
 [kato]: https://kato.im
 [pathogen]: https://github.com/tpope/vim-pathogen
