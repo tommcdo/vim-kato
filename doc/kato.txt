@@ -15,6 +15,14 @@ COMMANDS                                        *kato-commands*
 
                                                 *:Kato*
 :[range]Kato [options]  Send lines specified by [range] to a kato.im
-                        room. Defaults to current line.
+                        room. Defaults to current line. Room, username,
+                        and renderer can be specified in [options]:
+
+                          -r|--room ROOM_NAME
+                          -u|--user USERNAME
+                          -f|--renderer RENDERER
+
+                        Unspecified options will use default values in
+                        ~/.kato.yml.
 
  vim:tw=78:ts=8:ft=help:norl:
